@@ -28,6 +28,11 @@ return require('packer').startup(function(use)
 	-- Harpoon 
 	use( 'ThePrimeagen/harpoon')
 
+	-- Undo Tree - local branch nd history
+	use ('mbbill/undotree')
+
+	-- Fugitive plugin
+	use('tpope/vim-fugitive')
 
 end)
 
