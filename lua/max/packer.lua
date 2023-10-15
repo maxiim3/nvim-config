@@ -22,6 +22,15 @@ return require('packer').startup(function(use)
 
 	-- Tree setter
 	use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
+	-- Plugin for treesitter
+	use( 'nvim-treesitter/playground')
+
+	-- Harpoon 
+	use( 'ThePrimeagen/harpoon')
+
+
 end)
 
 -- Max: Now we can use :PackerSync, :PackerUpdate ...
+-- Configuration for tree sitter
+--
