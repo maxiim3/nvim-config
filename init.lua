@@ -1,2 +1,4 @@
 require("max")
-print('hello')
+require('lspconfig').lua_ls.setup({})
+
+ 
